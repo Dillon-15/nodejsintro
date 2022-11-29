@@ -1,3 +1,5 @@
+import chalk from 'chalk';
+
 // how to use git
 // git init
 // git add *
@@ -5,4 +7,5 @@
 // paste the code from github to add it to the repository
 // paste in git push -u origin main
 
-console.log("I am so Giddy today about Octopi!!")
+console.log(chalk.blue('Hello world!'));
+console.log("I am so Giddy today about Octopi!!");

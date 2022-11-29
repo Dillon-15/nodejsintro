@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My first node project",
+  "main": "apps.js",
+  "type": "module",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dillon-15/nodejsintro.git"
+  },
+  "author": "Dillon Barnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dillon-15/nodejsintro/issues"
+  },
+  "homepage": "https://github.com/Dillon-15/nodejsintro#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
